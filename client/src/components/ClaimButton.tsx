@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
 import axios from "axios";
-import { CgLoadbar } from "react-icons/cg";
-import { LuLoaderCircle, LuLoaderPinwheel } from "react-icons/lu";
 
 export default function ClaimButton() {
   const [message, setMessage] = useState("");
