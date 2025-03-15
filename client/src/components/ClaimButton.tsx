@@ -9,7 +9,7 @@ export default function ClaimButton() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/coupons/claim",
+        "https://coupon-distribution-adm5.vercel.app/api/coupons/claim",
         {},
         { withCredentials: true }
       );
